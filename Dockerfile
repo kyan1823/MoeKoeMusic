@@ -39,7 +39,7 @@ COPY --from=frontend-builder /app/dist/ ./dist/
 # For frontend served by 'serve'
 EXPOSE 8080 
 # For API
-EXPOSE 6521 
+EXPOSE 3000 
 
 # Copy Nginx configuration
 COPY nginx.conf /etc/nginx/nginx.conf

@@ -9,4 +9,4 @@ services:
       dockerfile: Dockerfile
     ports: # 端口映射
       - "8080:8080"  # 前端服务
-      - "6521:6521"  # 接口服务
+      - "3000:3000"  # 接口服务
